@@ -1,0 +1,14 @@
+<style type="text/css"> 
+     #filecontents { 
+          border:double; 
+       overflow-y:scroll; 
+       height:400px; 
+     } 
+</style>
+<body> 
+     Please Select text file of which contents are to be read: 
+      <input type="file" id="txtfiletoread" />
+    <div>The File Contents are as below:</div> 
+     <div id="filecontents">
+    </div>
+</body>
